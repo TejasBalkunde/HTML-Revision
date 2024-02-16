@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Two(Lec9)</title>
+</head>
+<body>
+    <h2>Job Apllication</h2>
+    <form>
+        
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">EmailID: </label>
+        <input type="email" id="email" name="mail">
+        <br><br>
+        <label for="call">Contact No:</label>
+        <input type="tel" id="call" name="phone">
+        <br><br>
+        <label for="file">Resume:</label>
+        <input type="file" name="fd" id="file">
+        <br><br>
+        <label for="ctr">Experience:</label>
+        <input type="number" name="counter" id="ctr" min="0" max="50">
+        <br><br>
+        <fieldset>
+            <legend>Skills</legend>
+        <label for="choice">HTML</label>
+        <input type="checkbox" name="choice" id="choice">
+        <br><br>
+        <label for="choice2">CSS</label>
+        <input type="checkbox" name="choice" id="choice2">
+        <br><br>
+        <label for="choice3">JS</label>
+        <input type="checkbox" name="choice" id="choice3">
+    </fieldset>
+    <label for="list">Highest Education</label>
+    <select name="fd" id="list">
+    <option value="1">Phd</option>
+    <option value="2">Masters</option>
+    <option value="3">Bachelors</option>
+    <option value="4">HSC</option>
+    <option value="4">SSC</option>
+</select>
+
+    <fieldset>
+        <legend>Avaiability:</legend>
+        <label for="1">Full-time</label>
+        <input type="radio" name="1" id="1">
+        <br>
+        <label for="2">Part-time</label>
+        <input type="radio" name="1" id="2">
+
+    </fieldset>
+    <label for="txtarea">Additional Comments</label>
+    <br>
+    <textarea name="text" id="txtarea" cols="30" rows="10"></textarea>
+    <br>
+    <button>Submit Application</button>
+
+
+    </form>
+    
+</body>
+</html>
